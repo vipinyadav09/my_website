@@ -9,7 +9,7 @@ echo date("h:i a"). "<br>";*/
 //echo mktime()."<br>";
 echo mktime(15, 20, 12, 5, 10, 2020)."<br>";
 $futureDate = mktime(0, 0, 0, date("m")+3, date("d")+6, date("Y")+2);
-//echo date("d/m/Y", $futureDate);
+echo date("d/m/Y", $futureDate);
 
 
 ?>
