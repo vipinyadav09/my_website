@@ -1,12 +1,15 @@
 <?php
-$to_email = "vipinyadav208017@gmail.com";
+$toemail = "vipinyadav208017@gmail.com";
 $subject = "Simple Email Test via PHP";
 $body = "Hi, This is test email send by PHP Script";
 $headers = "From:testvipinyadav@gmail.com";
-if (mail($to_email, $subject, $body, $headers))
-{
-    echo "Email successfully sent to $to_email...";
-} else
-{
-    echo "Email sending failed...";
+
+if (mail($toemail, $subject, $body, $headers))
+    {
+    echo "Email successfully sent to $toemail...";
 }
+ else
+ {
+    echo "Email sending failed";
+}
+?>
