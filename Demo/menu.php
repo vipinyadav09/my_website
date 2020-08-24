@@ -25,7 +25,7 @@
   <a href="home.php">Home</a>
   <a href="about.php">About</a>
   <a href="contact.php">Contact</a>
-  <a href="login.php" style="float:right">Logout</a>
+  <a href="home.php" style="float:right">Logout</a>
 </div>
 </body>
 </html>

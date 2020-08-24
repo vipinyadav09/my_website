@@ -115,45 +115,40 @@ body {
 
 <div class="topnav">
   <a href="#">Home</a>
-  <a href="#">About</a>
-  <a href="#">Contact</a>
-    <a href="error.php" style="float:right">Logout</a>
+  <a href="about.php">About</a>
+  <a href="contact.php">Contact</a>
+    <a href="home.php" style="float:right">Logout</a>
   <a href="login.php" style="float:right">Login</a>
     <a href="create.php" style="float:right">Register</a>
-  </div>
+</div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>My Website</h2>
+      <h5><?php echo date("l jS \of F Y h:i:s A") ?></h5>
+      <div class="fakeimg" style="height:200px;">This is time</div>
+
     </div>
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2></h2>
+
+      <div class="fakeimg" style="height:200px;"></div>
+
     </div>
   </div>
   <div class="rightcolumn">
     <div class="card">
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h2>About Website</h2>
+      <div class="fakeimg" style="height:100px;"></div>
+
     </div>
     <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
+      <h3></h3>
+
     </div>
     <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
+
     </div>
   </div>
 </div>
