@@ -120,6 +120,7 @@ body {
     <a href="home.php" style="float:right">Logout</a>
   <a href="login.php" style="float:right">Login</a>
     <a href="create.php" style="float:right">Register</a>
+
 </div>
 
 <div class="row">
@@ -130,27 +131,12 @@ body {
       <div class="fakeimg" style="height:200px;">This is time</div>
 
     </div>
-    <div class="card">
-      <h2></h2>
-
-      <div class="fakeimg" style="height:200px;"></div>
-
-    </div>
+   
   </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>About Website</h2>
-      <div class="fakeimg" style="height:100px;"></div>
-
-    </div>
-    <div class="card">
-      <h3></h3>
-
-    </div>
-    <div class="card">
-
-    </div>
-  </div>
+  
+   
+   
+ 
 </div>
 
 <div class="footer">

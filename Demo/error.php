@@ -42,7 +42,7 @@ margin: 0 auto;
 
 <div class="alert alert-danger fade in">
 
-<p>Sorry, you've made an invalid request. Please <a href="index.php" class="alert-link">go back</a> and try again.</p>
+<p>Sorry, you've made an invalid request. Please <a href="home.php" class="alert-link">go back</a> and try again.</p>
 
 </div>
 
