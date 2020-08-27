@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<tutorial>
+
+   <course category = "JAVA">
+      <title lang = "en">Java</title>
+      <tutor>AMAN</tutor>
+      <duration>7</duration>
+      <price>$30</price>
+      <address>Delhi</address>
+ </course>
+   <course category = "HADOOP">
+      <title lang = "en">Hadoop</title>.
+      <tutor>Vipin</tutor>
+      <duration>3</duration>
+      <price>$50</price>
+        <address>noida</address>
+   </course>
+</tutorial>
