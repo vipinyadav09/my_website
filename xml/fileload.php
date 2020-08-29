@@ -1,5 +1,5 @@
 <?php
-   $xml = simplexml_load_file('data.xml') or die("Error: Cannot create object");
+   $xml = simplexml_load_file('data.html') or die("Error: Cannot create object");
 ?>
 <html>
    <head>
