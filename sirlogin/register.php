@@ -59,6 +59,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
             // Set parameters
             $param_username = $username;
+
+            // ask to sir
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
