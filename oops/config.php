@@ -11,5 +11,5 @@ class connect
     }
 }
 $db = new connect('localhost', 'root', '', 'demo');
-echo 'Success';
+echo 'database connected Succesfully';
 ?>
